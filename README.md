@@ -9,6 +9,9 @@ The data layer is [CognoDB](https://console.cognodb.com) — a managed graph
 database that speaks openCypher over the Bolt protocol and works with the
 official Neo4j drivers (so it also runs unchanged against a local Neo4j).
 
+**Live demo:** <https://cognodb-supply-graph-seven.vercel.app>
+— deployed on Vercel, running against a live CognoDB Cloud instance.
+
 ---
 
 ## Table of contents
@@ -288,6 +291,8 @@ The app is a standard Next.js project and deploys to any Node host. On **Vercel*
 3. Deploy. The build command is `next build` (default). No further config needed.
 4. Seed the CognoDB instance once from your machine with `npm run seed` (the seed
    script reads the same env vars from `.env.local`).
+
+This project is deployed at <https://cognodb-supply-graph-seven.vercel.app>.
 
 > Keep the CognoDB instance running so the live demo works against real data.
 
