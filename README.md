@@ -5,9 +5,9 @@
 > **"If this supplier — or an entire region — goes offline, which products are at
 > risk, and how far upstream is the cause?"**
 
-Built for the **Wexa AI / CognoDB take-home assignment**. The data layer is
-[CognoDB](https://console.cognodb.com) — a managed graph database that speaks
-openCypher over the Bolt protocol and works with the official Neo4j drivers.
+The data layer is [CognoDB](https://console.cognodb.com) — a managed graph
+database that speaks openCypher over the Bolt protocol and works with the
+official Neo4j drivers (so it also runs unchanged against a local Neo4j).
 
 ---
 
@@ -289,8 +289,7 @@ The app is a standard Next.js project and deploys to any Node host. On **Vercel*
 4. Seed the CognoDB instance once from your machine with `npm run seed` (the seed
    script reads the same env vars from `.env.local`).
 
-> Keep the CognoDB instance running after submission so the live demo works
-> against real data.
+> Keep the CognoDB instance running so the live demo works against real data.
 
 ---
 
@@ -347,4 +346,4 @@ cognodb-supply-graph/
 
 ## License
 
-MIT — built as an assignment submission.
+MIT.

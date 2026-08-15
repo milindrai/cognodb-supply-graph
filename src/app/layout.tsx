@@ -16,8 +16,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <NavBar />
           <main className="flex-1 py-6">{children}</main>
           <footer className="border-t border-edge py-5 text-center text-xs text-subtle">
-            ChainLens · backed by a graph database (CognoDB / openCypher over Bolt) ·
-            built for the Wexa AI take-home
+            ChainLens · backed by a graph database (CognoDB / openCypher over Bolt)
           </footer>
         </div>
       </body>
